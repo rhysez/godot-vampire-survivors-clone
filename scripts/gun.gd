@@ -14,7 +14,7 @@ func has_detected_mobs(mob_count: Array) -> bool:
 	return false
 
 func shoot():
-	const BULLET = preload("res://bullet.tscn")
+	const BULLET = preload("res://scenes/bullet.tscn")
 	var new_bullet = BULLET.instantiate()
 	new_bullet.global_position = %ShootingPoint.global_position
 	new_bullet.global_rotation = %ShootingPoint.global_rotation

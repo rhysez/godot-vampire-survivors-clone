@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://swcb8q32cvqi"]
 
-[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://player.tscn" id="1_3cish"]
-[ext_resource type="Script" uid="uid://bbm4oh1a8qka" path="res://survivors_game.gd" id="1_qqaft"]
-[ext_resource type="PackedScene" uid="uid://dq3r015sr1uql" path="res://pine_tree.tscn" id="2_y3pti"]
+[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://scenes/player.tscn" id="1_3cish"]
+[ext_resource type="Script" uid="uid://bbm4oh1a8qka" path="res://scripts/survivors_game.gd" id="1_qqaft"]
+[ext_resource type="PackedScene" uid="uid://dq3r015sr1uql" path="res://scenes/pine_tree.tscn" id="2_y3pti"]
 
 [sub_resource type="Curve2D" id="Curve2D_l26od"]
 _data = {
